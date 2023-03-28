@@ -20,17 +20,18 @@
 
 ## 3) uses cases à intégrer dans le projet doctoliberal
 
+
+
 # II - Page d'incitation à l'installation de PWA
  
 ## 1) Créer un composant (React / Vue / angular / HTML+CSS) pour inciter et surtout guider un utilisateur à installer la PWA (navigateur nécessaire, compatibilité du device, capacités supplémentaires, etc...)
 
-```
+```js
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="App">
@@ -49,3 +50,4 @@ export default App
 ```
 
 ## 2) Expliquer en quoi il serait interessant de mettre en place une telle page
+
